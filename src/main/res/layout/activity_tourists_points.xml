@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TouristsPoints">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Explore the beauty of Sindh"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            app:fontFamily="cursive" />
+
+        <Button
+            android:id="@+id/btnlarkana"
+            android:layout_width="match_parent"
+            android:text="Larkana"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:onClick="larkana"
+            android:layout_height="250dp"
+            android:background="@drawable/larkana" />
+        <Button
+            android:id="@+id/btnkarachi"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Karachi"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:onClick="karachi"
+            android:layout_height="250dp"
+            android:background="@drawable/karachi" />
+        <Button
+            android:id="@+id/btndadu"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Dadu"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:onClick="dadu"
+            android:layout_height="250dp"
+            android:background="@drawable/dadu" />
+        <Button
+            android:id="@+id/btnmatiari"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Matiari"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:onClick="matiari"
+            android:layout_height="250dp"
+            android:background="@drawable/matiari" />
+        <Button
+            android:id="@+id/btnhyderabad"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Hyderabad"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:onClick="hyderabad"
+            android:layout_height="250dp"
+            android:background="@drawable/hyderabad" />
+        <Button
+            android:id="@+id/btnthatta"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Thatta"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:onClick="thatta"
+            android:layout_height="250dp"
+            android:background="@drawable/thatta" />
+        <Button
+            android:id="@+id/btnsukkur"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Sukkur"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:onClick="sukkur"
+            android:layout_height="250dp"
+            android:background="@drawable/sukkur" />
+        <Button
+            android:id="@+id/btntharbarker"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:text="Tharparker"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:onClick="tharparker"
+            android:background="@drawable/tharparker" />
+
+
+    </LinearLayout>
+</ScrollView>
